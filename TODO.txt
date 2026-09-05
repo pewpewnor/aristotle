@@ -1,0 +1,8 @@
+TODO:
+- add prefix reference
+- when starting, give the LLM the list of loaded codebases
+- filter query search according to codebasename
+- the prompt engineering needs to be something like input one entity or 1 relationships at a time
+- give all possible relationship types
+- remove all unused files
+- add feature load current codebase

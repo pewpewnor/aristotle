@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.bruno/
+.env
+
+.cloned/
+combined_results.json
+
+*.zip
+
+.index/
