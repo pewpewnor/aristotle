@@ -1,5 +1,7 @@
 # Aristotle Backend
 
+![Aristotle logo](media/aristotle.png)
+
 Aristotle is an AI framework for building a coding assistant that can answer questions about codebases, Git repositories, and Python packages. This repository contains its local-first backend: a FastAPI service used by the VS Code extension, an agent workflow, code-knowledge-graph indexing, and semantic documentation search.
 
 Its central idea is model amplification. A relatively weak or small local model does not need to remember every API, implementation detail, or README in a repository: Aristotle retrieves the relevant evidence from a semantic graph and a vector index, then gives that evidence to the model when it answers. The retrieval layer supplies grounded, code-specific context while Ollama keeps inference local and configurable.
